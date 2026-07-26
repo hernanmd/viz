@@ -56,7 +56,7 @@ BaselineOfAIViz >> baselineForPharo9: spec [
 			spec
 				baseline: 'AIHierarchicalClustering' with: [ spec repository: 'github://pharo-ai/hierarchical-clustering/src' ];
 				package: 'AI-Viz-Roassal3' with: [ spec requires: #( 'AIMetrics' 'AIDatasets' 'ContainersOrderedSet' ) ];
-				package: 'AI-Viz-Roassal3-HierarchicalClustering' with: [ spec requires: #( 'AI-HierarchicalClustering' ) ].
+				package: 'AI-Viz-Roassal3-HierarchicalClustering' with: [ spec requires: #( 'AIHierarchicalClustering' ) ].
 
 			spec group: 'AIVizRoassal' with: #( 'AI-Viz-Roassal3' ) ]
 ]
